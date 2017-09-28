@@ -8,7 +8,8 @@
     "test": "grunt test",
     "build": "grunt build",
     "all": "npm run build && npm run test",
-    "postinstall": "grunt postinstall"
+    "postinstall": "grunt postinstall",
+    "dev": "./node_modules/.bin/webpack -d --watch"
   },
   "dependencies": {
     "adaro": "^0.1.10",
@@ -22,6 +23,8 @@
     "eslint": "^1.10.3",
     "express": "^4.12.2",
     "kraken-js": "^2.0.0",
+    "react": "^16.0.0",
+    "react-dom": "^16.0.0",
     "requirejs": "^2.3.5"
   },
   "devDependencies": {
