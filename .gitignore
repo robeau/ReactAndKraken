@@ -11,7 +11,7 @@ test/report/coverage
 *.log
 oom_1
 *.swp
-public/bundle.js
+public/js/bundle.js
 
 # OS generated files #
 ######################
